@@ -16,7 +16,7 @@ function App() {
     const payload = ctx.children;
     console.log(payload);
     
-    await fetch('http://localhost:8080/sendEmail', {
+    await fetch('https://santa-gifts-backend-expressjs-zakiahmedkgp.vercel.app/sendEmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
